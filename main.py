@@ -34,3 +34,5 @@ if __name__ == '__main__':
 
     print(' '.join(
         map(str, compute_required_energy(intersection_count, shortcuts))))
+
+    sys.stdout.flush()
